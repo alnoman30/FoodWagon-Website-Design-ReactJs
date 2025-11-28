@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <header>
         <div className='container mx-auto'>
-            <div className='flex flex-row justify-between items-center'>
+            <div className='flex flex-row justify-between items-center py-2'>
                 <div className='logo'>
                     <img src={logo} alt="foodwagon" />
                 </div>
-                <div>
-                    <p><strong>Deliver to:</strong> <MdLocationOn/> Current Location <strong>Mohammadpur Bus Stand, Dhaka</strong></p>
+                <div className=' inline-block text-gray-500'>
+                    <p className='flex items-center gap-1'><strong>Deliver to:</strong> <MdLocationOn size={20} className='text-primary'/> Current Location <strong>Mohammadpur Bus Stand, Dhaka</strong></p>
                 </div>
                 <div>3</div>
             </div>
